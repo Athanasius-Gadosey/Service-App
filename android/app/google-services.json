@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "470852618267",
+    "project_id": "serviceapp-57db4",
+    "storage_bucket": "serviceapp-57db4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:470852618267:android:2ab8ce9a6e967aeff610be",
+        "android_client_info": {
+          "package_name": "com.gadtech.serviceapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "470852618267-fbgg4dcqv0jdpdardpr56o0o2j1r5i0r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpfh_7AmYjQifOGnrAsPxRFGPCewLTFNo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "470852618267-fbgg4dcqv0jdpdardpr56o0o2j1r5i0r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
