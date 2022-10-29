@@ -1,6 +1,7 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'screens/loginpage.dart';
+import 'package:flutter_keyboard_visibility/flutter_keyboard_visibility.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -8,7 +9,9 @@ Future<void> main() async {
   runApp(
     MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Loginpage(),
+      home: KeyboardVisibilityProvider(
+        child: Loginpage(),
+      ),
     ),
   );
 }
